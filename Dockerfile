@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN apk add --update curl \
- && curl -sSL https://github.com/Wind4/vlmcsd/releases/download/svn1108/binaries.tar.gz -o binaries.tar.gz \
+ && curl -sSL https://github.com/Wind4/vlmcsd/releases/download/svn1111/binaries.tar.gz -o binaries.tar.gz \
  && tar zxf binaries.tar.gz \
  && cp binaries/Linux/intel/static/vlmcsdmulti-x64-musl-static /usr/bin/vlmcsd \
  && chmod 0755 /usr/bin/vlmcsd \
