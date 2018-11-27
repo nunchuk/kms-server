@@ -1,4 +1,11 @@
 # kms server docker image
+
+## Usage
+
+```
+$ docker run -d -p 1688:1688 --restart=always --name vlmcsd vlmcsd:v1
+```
+
 ## 直接可用的地址：
 
 ```
