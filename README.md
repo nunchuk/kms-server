@@ -121,6 +121,9 @@ cscript ospp.vbs /act
 # Windows GVLK密钥对照表（KMS激活专用）
 
  >以下key来源于微软官网：[https://technet.microsoft.com/en-us/library/jj612867.aspx](https://technet.microsoft.com/en-us/library/jj612867.aspx)
+ 
+new [https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys)
+ 
 ## Windows Server 2016
 操作系统       | KMS激活序列号
 -------------------------------|------------------------------
